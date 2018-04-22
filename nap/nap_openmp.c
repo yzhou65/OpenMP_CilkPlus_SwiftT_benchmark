@@ -20,13 +20,11 @@ int main(int argc, char *argv[]) {
 
     start = omp_get_wtime();
 
-    #pragma omp parallel num_threads(threads)
+    
+    #pragma omp parallel for num_threads(threads)
+    for(int i = 0; i < n; i++)
     {
-        #pragma omp for
-        for(int i = 0; i < n; i++)
-        {
-            sleep(0);
-        }
+        sleep(0);
     }
 
     time = omp_get_wtime() - start;
