@@ -25,6 +25,7 @@ long fib(int n) {
     return i + j;
 }
 
+/** compute fibonacci number parallely. When below cutoff, compute serially */
 long fib_cutoff(int n, int cutoff) {
 //    pthread_mutex_lock(&mtx);
 //    count++;

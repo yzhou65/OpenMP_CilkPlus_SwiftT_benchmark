@@ -69,9 +69,10 @@ import io;
 
 int arr[];
 int count = toint(argv("count"));
-int num = toint(argv("num"));
+//int num = toint(argv("num"));
 foreach i in [0:count-1] {
-    arr[i] = randint(0, num);
+    //arr[i] = randint(0, num);
+    arr[i] = randint(0, count);
 }
 
 
