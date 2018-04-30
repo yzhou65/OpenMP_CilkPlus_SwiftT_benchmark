@@ -4,3 +4,14 @@ The functions used for benchmarking are MDLite, recursive Fibonacci, recursive Q
 
 Results:
 
+![alt text]https://github.com/yzhou65/OpenMP_CilkPlus_SwiftT_benchmark/blob/master/results/compare_fib.png
+
+
+![alt text]https://github.com/yzhou65/OpenMP_CilkPlus_SwiftT_benchmark/blob/master/results/compare_quicksort.png
+
+
+![alt text]https://github.com/yzhou65/OpenMP_CilkPlus_SwiftT_benchmark/blob/master/results/compare_nap.png
+
+
+![alt text]https://github.com/yzhou65/OpenMP_CilkPlus_SwiftT_benchmark/blob/master/results/compare_mdlite.png
+
